@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from torchvision_models import load_pretrained
+from .torchvision_models import load_pretrained
 
 __all__ = ['WideResNet', 'wideresnet3d50']
 

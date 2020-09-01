@@ -239,7 +239,7 @@ def get_fine_tuning_parameters(model, ft_begin_index):
     return parameters
 
 
-def resnet3d10(**kwargs):
+def resnet3d10(num_classes=400, pretrained=None,**kwargs):
     """Constructs a ResNet3D-10 model."""
     model = ResNet3D(BasicBlock, [1, 1, 1, 1], **kwargs)
     model = modify_resnets(model)

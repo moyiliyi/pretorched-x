@@ -210,43 +210,43 @@ def get_fine_tuning_parameters(model, ft_begin_index):
     return parameters
 
 
-def resnext3d10(**kwargs):
+def resnext3d10(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-10 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [1, 1, 1, 1], **kwargs)
     return model
 
 
-def resnext3d18(**kwargs):
+def resnext3d18(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-18 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [2, 2, 2, 2], **kwargs)
     return model
 
 
-def resnext3d34(**kwargs):
+def resnext3d34(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-34 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [3, 4, 6, 3], **kwargs)
     return model
 
 
-def resnext3d50(**kwargs):
+def resnext3d50(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-50 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [3, 4, 6, 3], **kwargs)
     return model
 
 
-def resnext3d101(**kwargs):
+def resnext3d101(num_classes=1000, pretrained='kinetics-400',**kwargs):
     """Constructs a ResNeXt3D-101 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [3, 4, 23, 3], **kwargs)
     return model
 
 
-def resnext3d152(**kwargs):
+def resnext3d152(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-152 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [3, 8, 36, 3], **kwargs)
     return model
 
 
-def resnext3d200(**kwargs):
+def resnext3d200(num_classes=1000, pretrained=None,**kwargs):
     """Constructs a ResNeXt3D-200 model."""
     model = ResNeXt3D(ResNeXtBottleneck, [3, 24, 36, 3], **kwargs)
     return model

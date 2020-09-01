@@ -1,3 +1,7 @@
+#Updates
+- Fixed missing "pretrained" argument for some models, though not all pretrained models provided.
+- Fixed entry to wideresnet3d50.
+
 # Pretrained image and video models for Pytorch (Work in progress)
 
 The goal of this repo is:
