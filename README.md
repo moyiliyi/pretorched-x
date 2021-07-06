@@ -8,8 +8,8 @@
   ### Use Examples:
   - `attention56(num_classes=1000)`
   - `attention92(num_classes=1000)`
-  - `attention3D56(num_classes=1000)`
-  - `attention3D92(num_classes=1000)`
+  - `attention3d56(num_classes=1000)`
+  - `attention3d92(num_classes=1000)`
 
 # Updates
 - Fixed missing "pretrained" argument for some models, though not all pretrained models provided.
