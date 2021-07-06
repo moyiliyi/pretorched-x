@@ -74,6 +74,12 @@ from .resnext3D import resnext3d101
 from .resnext3D import resnext3d152
 from .resnext3D import resnext3d200
 
+from .attentionnet3D import attention3d56
+from .attentionnet3D import attention3d92
+
+from .attentionnet import attention56
+from .attentionnet import attention92
+
 from .wideresnet3D import wideresnet3d50
 from .soundnet import soundnet8
 

@@ -1,3 +1,12 @@
+# Updates 2021/07/06
+- Added **2D and 3D verison of Residual Attention Network** (No pretrained weights) 
+  See `Residual Attention Network for Image Classification (CVPR-2017 Spotlight) By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiaogang Wang, Xiaoou Tang` (https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Residual_Attention_Network_CVPR_2017_paper.pdf)
+  ### Use Examples:
+    `attention56(num_classes=1000)`
+    `attention92(num_classes=1000)`
+    `attention3D56(num_classes=1000)`
+    `attention3D92(num_classes=1000)`
+
 # Updates
 - Fixed missing "pretrained" argument for some models, though not all pretrained models provided.
 - Fixed entry to wideresnet3d50.

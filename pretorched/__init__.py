@@ -76,6 +76,13 @@ from .models.nonlocalnet import nonlocalresnet3d34
 from .models.nonlocalnet import nonlocalresnet3d50
 from .models.nonlocalnet import nonlocalresnet3d101
 
+from .models.attentionnet3D import attention3d56
+from .models.attentionnet3D import attention3d92
+
+from .models.attentionnet import attention56
+from .models.attentionnet import attention92
+
+
 from .models.mobilenet import mobilenetv2
 
 from .models.wideresnet3D import wideresnet3d50
